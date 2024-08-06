@@ -14,10 +14,6 @@ function Skills() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl/none">
               My Skills
             </h2>
-            <p className="text-gray-500 dark:text-gray-400">
-              Here are some of my skills where I&apos;ve turned knowledge into
-              expertise, making things happen.
-            </p>
           </div>
           <div className="grid gap-4">
             {skills.map((skill, index) => (

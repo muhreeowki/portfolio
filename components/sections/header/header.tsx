@@ -18,7 +18,7 @@ const Header = ({ loader }: HeaderProps) => {
 
   return (
     <motion.header
-      className={styles.header}
+      className={styles.header + ' max-w-screen-xl'}
       initial={{
         y: -80
       }}
@@ -33,7 +33,7 @@ const Header = ({ loader }: HeaderProps) => {
       <div className={styles.bar}>
         <Link href="/" className="flex items-center justify-center">
           <span className="text-md font-semibold transition-transform hover:translate-x-1 hover:translate-y-1">
-            {meta.author.name}
+            MM
           </span>
         </Link>
         <div onClick={() => setIsActive(!isActive)} className={styles.el}>

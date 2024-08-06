@@ -18,15 +18,16 @@ export default function Home() {
   return (
     <SmoothScroll>
       <Preloader />
-      <div className="flex min-h-[100dvh] flex-col">
+      <div className="flex min-h-[100dvh] flex-col items-center">
         <Header loader={true} />
-        <main className="flex-1">
+        <main className="max-w-screen-xl flex-1">
           <Hero />
           <About />
-          <Skills />
           <Projects />
-          <Experience />
-          <Testimonials />
+          {/*
+            <Skills />
+            <Experience />
+          */}
           <Contact />
           <Footer />
         </main>

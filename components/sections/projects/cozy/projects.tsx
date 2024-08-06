@@ -23,12 +23,8 @@ function Projects() {
               </h2>
             </Reveal>
           </div>
-          <p className="mt-4 hidden text-gray-500 dark:text-gray-400 lg:mt-0 lg:block lg:w-[35%]">
-            Here are some of my projects where I&apos;ve turned code into cool,
-            functional stuff.
-          </p>
         </div>
-        <div className="mt-6 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="mt-6 grid w-full grid-cols-1 gap-10 sm:grid-cols-2">
           {projects.map((project, index) => (
             <ProjectCard
               key={index}
