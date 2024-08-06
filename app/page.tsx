@@ -22,12 +22,12 @@ export default function Home() {
         <Header loader={true} />
         <main className="max-w-screen-xl flex-1">
           <Hero />
-          <About />
           <Projects />
           {/*
             <Skills />
             <Experience />
           */}
+          <About />
           <Contact />
           <Footer />
         </main>

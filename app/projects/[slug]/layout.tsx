@@ -14,9 +14,9 @@ export default function ProjectLayout({
   return (
     <SmoothScroll>
       {/* <Preloader /> */}
-      <div className="flex min-h-[100dvh] flex-col">
+      <div className="flex min-h-[100dvh] w-full flex-col items-center">
         <Header />
-        <main className="my-14 flex-1">{children}</main>
+        <main className="my-14 max-w-screen-xl flex-1 ">{children}</main>
       </div>
       <Cursor />
     </SmoothScroll>

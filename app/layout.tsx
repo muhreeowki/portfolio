@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: meta.author.name, // or meta.site.title
+    title: meta.author.firstName + ' ' + meta.author.lastName, // or meta.site.title
     description: meta.site.description,
     // site: '@username',
     // siteId: 'id',
@@ -97,7 +97,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={inter.className + 'max-w-screen-xl'}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
