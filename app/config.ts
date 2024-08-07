@@ -4,7 +4,7 @@ const metadata: Metadata = {
   author: {
     firstName: 'Muriuki',
     lastName: 'Muchiri',
-    username: 'muriukimuchiri',
+    username: 'muriuki',
     label: 'Software Engineer & Blockchain Developer'
   },
   site: {

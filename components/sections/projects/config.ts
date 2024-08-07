@@ -2,32 +2,32 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
-    name: 'Didomi Decentralized Crowdfunding',
-    slug: 'study_group',
-    description:
-      'A platform where students can form virtual study groups, schedule sessions, and share resources in real-time.',
-    thumbnail: '/images/projects/study_group/cover.jpg'
-  },
-  {
-    name: 'Muve Playlist Converter',
-    slug: 'fitness_tracker',
-    description:
-      'A mobile app that helps users track their fitness activities, set goals, and monitor progress with motivational tools.',
-    thumbnail: '/images/projects/fitness_tracker/cover.jpg'
-  },
-  {
     name: 'LP-NFT Generative Liquidity NFTs',
     slug: 'lpnft',
     description:
-      'An e-commerce platform dedicated to eco-friendly products where users can buy, sell, and learn about sustainable living.',
-    thumbnail: '/images/projects/eco_marketplace/cover.jpg'
+      'An NFT project that mints unique NFTs based on liquidity pool positions for decentralized exchanges like Uniswap.',
+    thumbnail: '/images/projects/lpnft/cover.png'
   },
   {
-    name: 'Evesmama',
-    slug: 'evesmama',
+    name: 'Didomi Decentralized Crowdfunding',
+    slug: 'didomi',
     description:
-      'A website offering interactive coding tutorials and challenges to help users learn programming languages through practice.',
-    thumbnail: '/images/projects/coding_tutorials/cover.jpg'
+      'A decentralized crowdfunding platform that enables users to create and contribute to fundraising campaigns.',
+    thumbnail: '/images/projects/didomi/cover.png'
+  },
+  {
+    name: 'Muve Playlist Converter',
+    slug: 'muve',
+    description:
+      'A web application that converts playlists between music streaming services like Spotify, Apple Music, and YouTube.',
+    thumbnail: '/images/projects/muve/cover.png'
+  },
+  {
+    name: "Eve's Tracker",
+    slug: 'evestracker',
+    description:
+      'A midwifery application that helps midwives track and manage their clients and appointments.',
+    thumbnail: '/images/projects/didomi/cover.png'
   }
 ];
 

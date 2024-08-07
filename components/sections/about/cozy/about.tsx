@@ -21,7 +21,7 @@ function About() {
           </div>
         </div>
         <div className="space-y-4">
-          <p className="mt-6 max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="my-6 max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             I am Muriuki, a software engineer specializing in backend
             development and blockchain technology. With a keen interest in
             building innovative solutions, I am driven by a passion for

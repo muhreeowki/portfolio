@@ -7,30 +7,32 @@ const links: Link[] = [
     thumbnail: 'home.jpg'
   },
   {
-    title: 'About',
-    href: '#about',
-    thumbnail: 'about.jpg'
-  },
-  {
     title: 'Projects',
     href: '#projects',
     thumbnail: 'projects.jpg'
   },
+  /*
   {
     title: 'Skills',
     href: '#skills',
     thumbnail: 'skills.jpg'
   },
   {
-    title: 'Testimonials',
-    href: '#testimonials',
-    thumbnail: 'testimonials.jpg'
+    title: 'Experience',
+    href: '#Experience',
+    thumbnail: 'experience.jpg'
   },
+  */
   {
-    title: 'Blog',
-    href: 'https://blog.example.com',
+    title: 'Resume',
+    href: 'resume.pdf',
     thumbnail: 'blog.jpg',
     target: '_blank'
+  },
+  {
+    title: 'About',
+    href: '#about',
+    thumbnail: 'about.jpg'
   },
   {
     title: 'Contact',

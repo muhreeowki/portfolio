@@ -90,7 +90,7 @@ const ProjectPage = (props: ProjectPageProps) => {
     <div className="container">
       <Header metadata={metadata} />
       <Image
-        src={`/images/projects/${slug}/cover.jpg`}
+        src={`/images/projects/${slug}/cover.png`}
         width={1280}
         height={832}
         alt={metadata.name}
