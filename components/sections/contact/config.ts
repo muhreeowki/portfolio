@@ -1,12 +1,11 @@
 import { Contact } from '@/types/contact';
 
 const contact: Contact = {
-  email: 'john@example.com',
+  email: 'muriuki@muchiri.com',
   socials: {
     github: 'https://github.com/',
-    youtube: 'https://youtube.com/',
-    twitter: 'https://twitter.com/',
-    linkedin: 'https://linkedin.com/'
+    linkedin: 'https://linkedin.com/',
+    warpcast: 'https://warpcast.com/muhreeowki'
   }
 };
 

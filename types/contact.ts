@@ -1,7 +1,7 @@
 export interface Socials {
   github?: string;
-  youtube?: string;
-  twitter?: string;
+  warpcast?: string;
+  discord?: string;
   linkedin?: string;
 }
 

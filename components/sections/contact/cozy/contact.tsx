@@ -5,12 +5,7 @@ import MotionWrap from '@/components/motion-wrap';
 
 import { toast } from '@/components/ui/use-toast';
 
-import {
-  YoutubeIcon,
-  GithubIcon,
-  LinkedinIcon,
-  TwitterIcon
-} from 'lucide-react';
+import { GithubIcon, LinkedinIcon, MessageCircleIcon } from 'lucide-react';
 import ContactForm from './contact-form';
 
 import { contact } from '@/components/sections/contact/config';
@@ -65,17 +60,10 @@ function Contact() {
               </a>
             </p>
             <div className="flex space-x-1">
-              {contact.socials?.github && (
+              {contact.socials?.warpcast && (
                 <Button variant="outline" size="icon" asChild>
-                  <a target="_blank" href={contact.socials.youtube}>
-                    <YoutubeIcon className="h-4 w-4" />
-                  </a>
-                </Button>
-              )}
-              {contact.socials?.twitter && (
-                <Button variant="outline" size="icon" asChild>
-                  <a target="_blank" href={contact.socials.twitter}>
-                    <TwitterIcon className="h-4 w-4" />{' '}
+                  <a target="_blank" href={contact.socials.warpcast}>
+                    <MessageCircleIcon className="h-4 w-4" />{' '}
                     {/* good 'ol twitter icon */}
                   </a>
                 </Button>
