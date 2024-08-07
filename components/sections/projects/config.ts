@@ -27,7 +27,7 @@ const projects: Project[] = [
     slug: 'evestracker',
     description:
       'A midwifery application that helps midwives track and manage their clients and appointments.',
-    thumbnail: '/images/projects/didomi/cover.png'
+    thumbnail: '/images/projects/evestracker/cover.png'
   }
 ];
 
