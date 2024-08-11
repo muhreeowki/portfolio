@@ -2,6 +2,13 @@ import { Project } from '@/types/project';
 
 const projects: Project[] = [
   {
+    name: 'Rent3',
+    slug: 'rent3',
+    description:
+      'A better way to rent. Rent3 is a decentralized rental platform that allows users to rent items from other users.',
+    thumbnail: '/images/projects/rent3/cover.png'
+  },
+  {
     name: 'LP-NFT Generative Liquidity NFTs',
     slug: 'lpnft',
     description:
