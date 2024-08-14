@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <a aria-label="Framework" href="https://nextjs.org">
+  <a aria-label="Framework" href="https://https://muriuki.tech">
     <img alt="" src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=Next.js&labelColor=000">
   </a>
   <img alt="" src="https://img.shields.io/github/languages/top/techwithanirudh/shadcn-portfolio?style=for-the-badge&labelColor=000">
@@ -46,11 +46,8 @@ This is a **Work In Progress** portfolio template built using Next.JS, Framer Mo
 - 🗺 Sitemap (WIP)
 - 📊 Sentry (setup required)
 - 🎨 Animations - using Framer Motion
-- 🏠 LightHouse score near 100
 - 🔨 Husky & Lint Staged - lint and format code before committing
-- ✅ Conventional commit lint - make sure commit messages follow the conventional commit format (WIP)
 - 💄 Prettier - code formatting
-- 👷🏻‍♂️ t3-env - validate environment variables before building (WIP)
 
 ## <a name="getting-started">📚 Getting Started</a>
 
