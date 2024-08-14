@@ -11,10 +11,10 @@ function Hero() {
             <div className="mb-6 inline-block w-fit rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-foreground/10">
               {hero.label}
             </div>
-            <h1 className="text-8xl font-bold tracking-tight md:text-9xl lg:self-start lg:text-[15rem]">
+            <h1 className="text-8xl font-bold tracking-tight md:text-9xl lg:self-start lg:text-[14rem]">
               {hero.firstName}
             </h1>
-            <h1 className="text-8xl font-bold tracking-tight md:text-9xl lg:self-end lg:text-[15rem]">
+            <h1 className="text-8xl font-bold tracking-tight md:text-9xl lg:self-end lg:text-[14rem]">
               {hero.lastName}
             </h1>
           </div>
